@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/scss/style.css">
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="./assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./assets/swiper/swiper-bundle.min.css">
+    <script src="./assets/swiper/swiper-bundle.min.js"></script>
+
+    <title>sample project</title>
+</head>
+
+<body id="begining">
+    <div class="position-fixed bottom-0 end-0 mb-5 z-11 d-none d-lg-block">
+        <a href="#begining" id="scrollToTopBtn" type="button" class="rounded bg-website-color p-2 me-5 d-none">
+            <i class="fa fa-arrow-up text-color" aria-hidden="true"></i>
+        </a>
+    </div>
+    <!--navbar-->
+    <nav class="navbar w-100 navbar-expand-lg bg-white position-fixed z-2">
+        <div class="container-fluid pe-5 d-flex justify-content-between">
+            <a class="navbar-brand fw-bold text-dark" href="#"><span class="h3">Horse Lovers <i
+                        class="fa fa-heart text-website-color " aria-hidden="true"></i></span></a>
+            <a class="text-dark h4" data-bs-toggle="modal" href="#ModalToggle" role="button"><i
+                    class="fa fa-bars"></i></a>
+        </div>
+    </nav>
+
+    <!--modal -->
+    <div class="modal fade" id="ModalToggle" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen ">
+            <div class="modal-content ">
+                <div class="container p-5 pb-2 d-flex justify-content-between flex-wrap">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title fs-5 fw-bold">Horse Lovers</h1>
+                    <div class="col-12 mt-5 ">
+                        <form class="d-flex rounded p-1 border mt-2">
+                            <input class="form-control  border-0" type="search"
+                                placeholder="What Do You Want To Search For?" aria-label="Search">
+                            <button class="btn rounded" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-body container">
+
+                    <div class="list-group">
+                        <a class="list-group-item border-0  d-flex justify-content-between"
+                            href="file:///C:/Users/H/Desktop/sample/index.html">
+                            Home <span class="f-10"><i class="fa fa-chevron-right me-2  "></i></span>
+                        </a>
+                        <a class="list-group-item border-0 border-top d-flex justify-content-between"
+                            href="file:///C:/Users/H/Desktop/sample/lessons.html">
+                            Lessons <span class="f-10"><i class="fa fa-chevron-right me-2  "></i></span>
+                        </a>
+                        <a class="list-group-item border-0 border-top d-flex justify-content-between"
+                            href="file:///C:/Users/H/Desktop/sample/news.html">
+                            News <i class="fa fa-chevron-right me-2  "></i></span></a>
+                        <a class="list-group-item border-0 border-top d-flex justify-content-between"
+                            href="file:///C:/Users/H/Desktop/sample/about.html">
+                            About Us <span class="f-10"><i class="fa fa-chevron-right me-2  "></i></span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class=" text-center bg-website-color text-light ">
+            <div class="pe-5 py-2 container  d-flex  justify-content-between">
+                <h3>Horse lovers<span class="fs-6"> © 2024 Horse Lovers</span></h3>
+                <div class="  d-flex flex-wrap">
+                    <a class="btn btn-outline-light btn-floating  text-light" href="#!" role="button"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-floating  text-light" href="#!" role="button"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-outline-light btn-floating  text-light" href="#!" role="button"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-floating  text-light" href="#!" role="button"><i
+                            class="fa fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-floating  text-light" href="#!" role="button"><i
+                            class="fa fa-pinterest"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--end of nav modals-->
+    <!--hero-->
+    <div class="row w-100 text-center animate__animated animate__fadeIn bg-white">
+
+        <div class="col-md-8 container p-5">
+            <h1 class="mt-5">Welcome Horse Lovers!! <i class="fa fa-heart text-website-color" aria-hidden="true"></i> <i
+                    class="fa fa-heart text-website-color" aria-hidden="true"></i></h1>
+            <p class="mt-5 p-5 pt-3"> Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit.
+                Maxime, asperiores.
+                Expedita
+                quod modi magnam
+                reprehenderit
+                quaerat tempore, vel illo? Architecto labore error doloremque omnis mollitia enim suscipit dolores
+                officiis
+                accusantium neque illum odio exercitationem est consequuntur eaque,
+                repellat delectus autem blanditiis fuga, dolor asperiores quod! Accusamus voluptates alias iste
+                quibusdam!
+            </p>
+        </div>
+        <div class="col-md-4">
+            <img class="w-100" src="./assets/images/1.png" alt="">
+        </div>
+    </div>
+    <!--end of hero-->
+    <!--news-->
+    <div class="position-relative container my-5 ">
+        <hr>
+        <div class="position-absolute top-0 start-50 translate-middle p-1 bg-white">
+            <p class=" text-dark h5 text-center"> <span class="me-2">
+                    Daily News</span>
+                <i class="fa fa-chevron-circle-right bg-website-color text-light  rounded-circle "></i>
+            </p>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row  ">
+            <div class="col-md-6  ">
+                <img src="./assets/images/2.png" class="w-100 " alt="">
+                <div class="container p-5 pt-3">
+                    <h1 class="h3">different parts of horses body</h1>
+                    <p class="bg-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nesciunt.
+                        Quas
+                        ad
+                        possimus
+                        voluptatibus
+                        laborum dolorem odit, at rerum tenetur voluptatem quam libero labore qui nobis quos optio ex
+                        consectetur. <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                            ...</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6  ">
+                <img src="./assets/images/3.png" class="w-100 " alt="">
+                <div class="container p-5 pt-3">
+                    <h1 class="h3">Ways To Train a horse</h1>
+                    <p class="bg-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nesciunt.
+                        Quas
+                        ad
+                        possimus
+                        voluptatibus
+                        laborum dolorem odit, at rerum tenetur voluptatem quam libero labore qui nobis quos optio ex
+                        consectetur. <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                            ...</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6  ">
+                <img src="./assets/images/4.png" class="w-100 " alt="">
+                <div class="container p-5 pt-3">
+                    <h1 class="h3">Different part of the saddle</h1>
+                    <p class="bg-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nesciunt.
+                        Quas
+                        ad
+                        possimus
+                        voluptatibus
+                        laborum dolorem odit, at rerum tenetur voluptatem quam libero labore qui nobis quos optio ex
+                        consectetur. <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                            ...</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6  ">
+                <img src="./assets/images/5.png" class="w-100 " alt="">
+                <div class="container p-5 pt-3">
+                    <h1 class="h3">A Normal Horse's TPR</h1>
+                    <p class="bg-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nesciunt.
+                        Quas
+                        ad
+                        possimus
+                        voluptatibus
+                        laborum dolorem odit, at rerum tenetur voluptatem quam libero labore qui nobis quos optio ex
+                        consectetur. <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                            ...</a></p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--end of news-->
+    <!-- swiper 2 -->
+    <div class="container centralized  my-5 text-light  ">
+        <div class="position-relative">
+            <div class="d-flex justify-content-between position-absolute top-50 w-100 d-none d-md-block">
+                <div class="swiper-button-prev-2 swiper-button-prev bg-website-color border rounded-circle  ">
+                </div>
+                <div class="swiper-button-next-2 swiper-button-next bg-website-color  border rounded-circle  ">
+                </div>
+
+            </div>
+            <div #swiperRef="" class="swiper swiper2 rounded p-4 bg-website-color  ">
+
+                <div class="position-relative mt-3 mb-5 ">
+                    <hr>
+                    <div class="position-absolute top-0 start-50 translate-middle  w-100 ">
+                        <div class="d-flex justify-content-between ">
+                            <p class="text-start h3 text-light p-1 "> <i class="fas fa-horse ">horses</i>
+                            </p>
+                            <p class="mt-2 text-light p-1 ">See All <i class="fa fa-chevron-circle-right "></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-wrapper mb-3">
+                    <div class=" swiper-slide ">
+                        <div class="slide-card">
+                            <img class="w-100 rounded" src="./assets/images/4.png" alt="" srcset="">
+                            <p class="mt-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Labore cupiditate cumqu <a class="nav-link"
+                                    href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                                    ...</a></p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" swiper-slide ">
+                        <div class="slide-card">
+                            <img class="w-100 rounded" src="./assets/images/4.png" alt="" srcset="">
+                            <p class="mt-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Labore cupiditate cumqu <a class="nav-link"
+                                    href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                                    ...</a></p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" swiper-slide ">
+                        <div class="slide-card">
+                            <img class="w-100 rounded" src="./assets/images/4.png" alt="" srcset="">
+                            <p class="mt-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Labore cupiditate cumqu <a class="nav-link"
+                                    href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                                    ...</a></p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-card">
+                            <img class="w-100 rounded" src="./assets/images/4.png" alt="" srcset="">
+                            <p class="mt-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Labore cupiditate cumqu <a class="nav-link"
+                                    href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                                    ...</a></p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-card">
+                            <img class="w-100 rounded" src="./assets/images/4.png" alt="" srcset="">
+                            <p class="mt-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                                    ...</a>
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-card">
+                            <img class="w-100 rounded" src="./assets/images/4.png" alt="" srcset="">
+                            <p class="mt-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                                    ...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center swiper-pagination-2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end of swiper 2 -->
+
+    <!--lessons-->
+    <div class="position-relative container my-5 ">
+        <hr>
+        <div class="position-absolute top-0 start-50 translate-middle p-1 bg-white">
+            <p class=" text-dark h5 text-center"> <span class="me-2">
+                    Check Out New Lessons</span>
+                <i class="fa fa-chevron-circle-right bg-website-color text-light  rounded-circle "></i>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row  ">
+            <div class="col-md-6  ">
+                <img src="./assets/images/2.png" class="w-100 " alt="">
+                <div class="container p-5 pt-3">
+                    <h1 class="h3">different parts of horses body</h1>
+                    <p class="bg-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nesciunt.
+                        Quas
+                        ad
+                        possimus
+                        voluptatibus
+                        laborum dolorem odit, at rerum tenetur voluptatem quam libero labore qui nobis quos optio ex
+                        consectetur. <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                            ...</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6  ">
+                <img src="./assets/images/3.png" class="w-100 " alt="">
+                <div class="container p-5 pt-3">
+                    <h1 class="h3">Ways To Train a horse</h1>
+                    <p class="bg-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nesciunt.
+                        Quas
+                        ad
+                        possimus
+                        voluptatibus
+                        laborum dolorem odit, at rerum tenetur voluptatem quam libero labore qui nobis quos optio ex
+                        consectetur. <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                            ...</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6  ">
+                <img src="./assets/images/4.png" class="w-100 " alt="">
+                <div class="container p-5 pt-3">
+                    <h1 class="h3">Different part of the saddle</h1>
+                    <p class="bg-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nesciunt.
+                        Quas
+                        ad
+                        possimus
+                        voluptatibus
+                        laborum dolorem odit, at rerum tenetur voluptatem quam libero labore qui nobis quos optio ex
+                        consectetur. <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                            ...</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6  ">
+                <img src="./assets/images/5.png" class="w-100 " alt="">
+                <div class="container p-5 pt-3">
+                    <h1 class="h3">A Normal Horse's TPR</h1>
+                    <p class="bg-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nesciunt.
+                        Quas
+                        ad
+                        possimus
+                        voluptatibus
+                        laborum dolorem odit, at rerum tenetur voluptatem quam libero labore qui nobis quos optio ex
+                        consectetur. <a class="nav-link" href="file:///C:/Users/H/Desktop/sample/show.html">See More
+                            ...</a></p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--services-->
+    <div class="container my-5">
+        <div class="position-relative  ">
+            <hr>
+            <div class="position-absolute top-0 start-0 translate-middle p-1 bg-white">
+                <p class=" text-dark h5 text-center"> <span class="me-2">
+                        Services</span>
+                    <i class="fa fa-pie-chart"></i>
+                </p>
+            </div>
+        </div>
+        <!-- Service 7 - Bootstrap Brain Component -->
+        <section class="bsb-service-7 my-5 py-xl-8">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+                        <h3 class="fs-5 mb-2 text-secondary text-center text-uppercase">Services</h3>
+                        <h2 class="display-6 mb-5 mb-xl-9 text-center">We offer premier services where excellence meets
+                            affordability.</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container-fluid bg-light border shadow">
+                            <div class="row">
+                                <div class="col-12 col-md-4 p-0">
+                                    <div class="card border-0 bg-transparent">
+                                        <div class="card-body text-center p-5">
+                                            <i class="fa fa-star fs-1 text-website-color"></i>
+                                            <h4 class="fw-bold text-uppercase my-4 ">Strategy</h4>
+                                            <p class="mb-4 text-secondary">The first phase is to develop a strategy for
+                                                the product or service that the tech company is developing. This
+                                                involves understanding the market and identifying the needs.</p>
+                                            <a href="#!" class="fw-bold text-decoration-none text-website-color">
+                                                Learn More...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 p-0 border-top border-bottom border-start border-end">
+                                    <div class="card border-0 bg-transparent">
+                                        <div class="card-body text-center p-5">
+                                            <i class="fa fa-truck fs-1 text-website-color"></i>
+                                            <h4 class="fw-bold text-uppercase my-4">Design</h4>
+                                            <p class="mb-4 text-secondary">Once the strategy is in place, the next phase
+                                                is to design the product or service. This involves creating wireframes,
+                                                prototypes, and mockups to test the design.</p>
+                                            <a href="#!" class="fw-bold text-decoration-none text-website-color">
+                                                Learn More ...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 p-0">
+                                    <div class="card border-0 bg-transparent">
+                                        <div class="card-body text-center p-5">
+                                            <i class="fa fa-users fs-1 text-website-color"></i>
+                                            <h4 class="fw-bold text-uppercase my-4">Development</h4>
+                                            <p class="mb-4 text-secondary">Once the design is finalized, the next phase
+                                                is to develop the product or service. This involves writing code,
+                                                building databases, and creating other assets.</p>
+                                            <a href="#!" class="fw-bold text-decoration-none text-website-color">
+                                                Learn More ...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <!--end of services-->
+
+    <!-------------------footer------------------->
+
+    <footer class="text-center text-lg-start text-white bg-website-color">
+        <!-- Grid container -->
+        <div class=" pt-5 ">
+            <!-- Section: Links -->
+            <section class="container">
+                <!--Grid row-->
+                <div class="row container text-color">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h6>About Us</h6>
+
+                        <ul class="list-unstyled mb-0">
+
+                            <li class="my-3">
+                                <a href="#!" class=" nav-link">About Horse lovers website</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+                        <h6>Related Links</h6>
+
+                        <ul class="list-unstyled mb-0 ">
+                            <li class="my-3">
+                                <a href="#!" class=" nav-link"> Lessons</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#!" class=" nav-link">News</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h6>Lessons</h6>
+                        <ul class="list-unstyled mb-0 ">
+
+                            <li class="my-3">
+                                <a href="#!" class=" nav-link">Begginer Level</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#!" class=" nav-link">intermediate Level</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </section>
+            <hr class="mb-4" />
+
+            <section class="d-flex flex-wrap justify-content-between container text-color">
+                <!-- on large screen-->
+                <div class=" mt-2 d-none d-lg-block">
+                    <div class="text-center ">
+                        <span class="h3 me-3">Horse Lovers</span> © 2024 Horse Lovers. All rights reserved
+                    </div>
+                </div>
+                <!--  Social media -->
+                <div class=" mb-4 text-center d-flex flex-wrap ">
+                    <a class="btn btn-outline-light btn-floating m-1 " href="#!" role="button"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fa fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fa fa-pinterest"></i></a>
+                </div>
+
+            </section>
+        </div>
+
+    </footer>
+    <!-------------------end of footer------------------->
+</body>
+
+</html>
+<style>
+    .swiper-button-prev::before,
+    .swiper-button-prev::after,
+    .swiper-button-prev .swiper-button-next::before,
+    .swiper-button-next::after,
+    .swiper-button-next {
+        font-size: 20px;
+    }
+</style>
+<script src="./assets/javascript/swiper.js"></script>
+<script src="./assets/javascript/scroll.js"></script>

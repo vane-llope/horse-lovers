@@ -1,0 +1,71 @@
+@import 'config';
+
+
+.bg-website-color {
+    @include set-background($bg-website-color)
+}
+
+.text-website-color {
+    color: $bg-website-color;
+}
+
+
+.swiper2 {
+    .swiper-pagination-bullet {
+        opacity: 0.5;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+.swiper-pagination-2 {
+    .swiper-pagination-bullet-active {
+        background-color: #ffffff;
+        opacity: 1;
+
+    }
+}
+
+.swiper-button-prev-2,
+.swiper-button-next-2 {
+    margin: 0 -30px;
+    padding: 20px;
+    border: #fff;
+}
+
+
+.swiper-button-next {
+    font-size: 20px
+}
+
+//for icons
+.btn i {
+    color: set-text-color($bg-website-color);
+    border-color: set-text-color($bg-website-color);
+}
+
+.text-color {
+    color: set-text-color($bg-website-color);
+}
+
+.swiper-button-prev::before,
+.swiper-button-prev::after,
+.swiper-button-prev .swiper-button-next::before,
+.swiper-button-next::after,
+.swiper-button-next {
+    font-size: 20px;
+    /*add the function instead of color*/
+    @include set-background($bg-website-color)
+}
+
+//test
+
+$base-color: #000; // Initial base color
+
+#color-display {
+    background-color: $base-color;
+    width: 100px;
+    height: 100px;
+}

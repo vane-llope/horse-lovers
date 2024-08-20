@@ -1,0 +1,87 @@
+:export {
+  bgWebsiteColor: #66260F;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.z-3 {
+  z-index: 3;
+}
+
+.z-4 {
+  z-index: 4;
+}
+
+.z-5 {
+  z-index: 5;
+}
+
+.z-6 {
+  z-index: 6;
+}
+
+.bg-website-color {
+  background-color: #66260F;
+  color: #ffffff;
+}
+
+.text-website-color {
+  color: #66260F;
+}
+
+.swiper2 .swiper-pagination-bullet {
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.swiper-pagination-2 .swiper-pagination-bullet-active {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.swiper-button-prev-2,
+.swiper-button-next-2 {
+  margin: 0 -30px;
+  padding: 20px;
+  border: #fff;
+}
+
+.swiper-button-next {
+  font-size: 20px;
+}
+
+.btn i {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.text-color {
+  color: #ffffff;
+}
+
+.swiper-button-prev::before,
+.swiper-button-prev::after,
+.swiper-button-prev .swiper-button-next::before,
+.swiper-button-next::after,
+.swiper-button-next {
+  font-size: 20px;
+  /*add the function instead of color*/
+  background-color: #66260F;
+  color: #ffffff;
+}
+
+#color-display {
+  background-color: #000;
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

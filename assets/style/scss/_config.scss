@@ -1,0 +1,38 @@
+$bg-website-color : #66260F;
+
+:export {
+    bgWebsiteColor: $bg-website-color;
+}
+
+//set text color based on background
+@function set-text-color($color) {
+    @if(lightness($color) > 70) {
+        @return #000000;
+    }
+
+    @else {
+        @return #ffffff;
+    }
+}
+
+//set background and text color
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}
+
+//z-index classes
+$spaceamounts: (
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+);
+
+@each $space in $spaceamounts {
+    .z-#{$space} {
+        z-index: #{$space};
+    }
+}
